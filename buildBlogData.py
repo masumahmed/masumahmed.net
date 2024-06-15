@@ -97,6 +97,8 @@ def main():
             "description": getDescription(content),
             "md": getMD(content),
         })
+        
+    data = sorted(data, key=lambda x: x["date"], reverse=True)
     writeData(data)
 
 if __name__ == "__main__":
