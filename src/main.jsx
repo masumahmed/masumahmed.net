@@ -40,9 +40,7 @@ function Main() {
 export default Main;
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-    <React.StrictMode>
-        <Router basename="">
-            <Main />
-        </Router>
-    </React.StrictMode>
+    <Router basename="">
+        <Main />
+    </Router>
 );
