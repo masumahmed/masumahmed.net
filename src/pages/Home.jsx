@@ -6,7 +6,7 @@ function Home() {
     const [text, setText] = useState("Software Engineer");
 
     useEffect(() => {
-        const labels = ["Software Engineer", "Projects", "Photos", "Contact"];
+        const labels = ["Software Engineer", "Data Science", "Cyber Security", "Game Dev", "Tech Enthusiast", ""];
         let index = 0;
         const interval = setInterval(() => {
             setText(labels[index]);
