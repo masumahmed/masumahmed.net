@@ -103,10 +103,15 @@ body {
         padding: 15px;
     }
 
+    h3 {
+        display: none;
+    }
+
     #nav {
         display: flex;
         flex-direction: center;
         margin: 0 auto;
+        font-size: 16px;
 
         a {
             color: $color_2;
@@ -116,7 +121,7 @@ body {
         .item {
             text-align: center;
             display: inline-flex;
-            margin: 45px 10px 0 10px;
+            margin: 40px 10px 0 10px;
 
             &:hover {
                 opacity: 0.5;
@@ -308,6 +313,11 @@ body {
         border-left: 1px solid rgb(58, 58, 58);
         border-right: 1px solid rgb(58, 58, 58);
 
+        // if .gallary has only 1 child then add a bottom border
+        &:only-child {
+            border-bottom: 1px solid rgb(58, 58, 58);
+        }
+
         h1 {
             margin: 0;
             margin-bottom: 10px;
@@ -361,6 +371,7 @@ body {
             -o-object-fit: cover;
             object-fit: cover;
             border: 2px solid #333;
+            cursor: pointer;
 
             &:hover {
                 filter: brightness(0.5);
@@ -531,6 +542,13 @@ body {
         h2 {
             display: none;
         }
+
+        h3 {
+            display: flex;
+            text-align: center;
+            margin: 20px auto;
+            padding: 15px;
+        }
     }
 }
 
@@ -538,22 +556,6 @@ body {
     .content {
         .con {
             width: 1140px;
-        }
-    }
-}
-
-@media only screen and (max-width: 1200px) {
-    .content {
-        .con {
-            width: 940px;
-        }
-    }
-}
-
-@media only screen and (max-width: 992px) {
-    .content {
-        .con {
-            width: 720px;
         }
     }
 }
@@ -649,12 +651,20 @@ body {
     }
 
     textarea {
-        height: 300px;
+        height: 10em;
     }
 }
 
 .markdown {
+    min-height: calc(100vh - 200px);
     max-width: 50em;
+    color: #c9c9c9;
+
+    .previewImage {
+        width: 100%;
+        max-height: 40em;
+        object-fit: cover;
+    }
 
     .previewImage {
         width: 100%;
@@ -665,20 +675,30 @@ body {
     img {
         max-width: 100%;
         height: auto;
+        cursor: pointer;
     }
 
     li {
         font-size: 18px;
+        padding: 0 10px;
     }
 
     pre {
         margin: 20px;
+        background-color: $background-color_4;
+
+        code {
+            background-color: $background-color_4;
+        }
     }
 
-    code p {
-        color: #000 !important;
+    p {
         font-size: 14px !important;
         font-family: monospace;
+    }
+
+    code {
+        font-size: 14px !important;
     }
 }
 
@@ -686,7 +706,74 @@ body {
     max-width: 50em;
     display: flex;
 
+    @media screen and (max-width: 600px) {
+        img {
+            width: 100px !important;
+            height: 100px !important;
+        }
+    }
+
     img {
         height: 150px;
+        width: 150px;
+        object-fit: cover;
+        margin: 15px 0px 15px 15px;
+        display: flex;
+        align-content: center;
     }
+}
+
+.blog {
+    h1 {
+        font-size: 22px;
+        padding: 15px 20px 10px 20px !important;
+    }
+
+    p {
+        font-size: 16px !important;
+    }
+}
+
+// modal
+#modal-container {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    position: fixed;
+    opacity: 0.80;
+    z-index: 2;
+    text-align: center;
+    flex-direction: invert;
+
+
+    p#tip {
+        margin-top: calc(4vh);
+        color: white;
+    }
+
+    p#caption {
+        margin-top: calc(88vh);
+        color: white;
+    }
+}
+
+// modal
+#modal {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+    margin-top: calc((100vh - 80vh)/2);
+
+    img {
+        max-width: 100%;
+        justify-content: center;
+        max-height: 80vh;
+    }
+}
+
+.invisible {
+    display: none;
 }

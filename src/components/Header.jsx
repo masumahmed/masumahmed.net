@@ -4,6 +4,7 @@ function Header() {
     return <>
         <div id="header">
             <h2>Masum Ahmed</h2>
+            <h3>MA</h3>
             <div id="nav">
                 <Link to="/">
                     <div className="item">Home</div>
@@ -14,9 +15,9 @@ function Header() {
                 <Link to="/blog">
                     <div className="item">Blog</div>
                 </Link>
-                <Link to="/photos">
+                {/* <Link to="/photos">
                     <div className="item">Photos</div>
-                </Link>
+                </Link> */}
             </div>
         </div>
     </>

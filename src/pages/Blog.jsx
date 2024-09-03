@@ -7,11 +7,10 @@ function Blog() {
     return <>
         <div id="bodyWrapper">
             <Header />
-            <div className="content">
+            <div className="content blog">
                 {BlogData.map(entry => {
                     return <BlogPreview key={entry.title} props={entry} />
                 })}
-                <br />
             </div>
         </div>
         <Footer />
