@@ -8,6 +8,7 @@ import Blog from './pages/Blog'
 import Photos from './pages/Photos'
 import BlogEntry from './pages/BlogEntry'
 import Contact from './pages/Contact'
+import InvestmentCalculator from './pages/InvestmentCalculator'
 import './styles.scss'
 
 function Main() {
@@ -33,6 +34,7 @@ function Main() {
         <Route path="/photos" element={<Photos />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<meta httpEquiv='refresh' content='0; URL=/MasumAhmedResume.pdf'/> } />
+        <Route path="/investment-calculator" element={<InvestmentCalculator />} />
         <Route path="/*" component={<h1 style={{ display: 'flex', justifyContent: 'center', textAlign: 'center' }}>404</h1>} />
     </Routes>
 }
