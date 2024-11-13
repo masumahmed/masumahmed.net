@@ -13,6 +13,22 @@ function InvestmentCalculator() {
     // let t = 0, r = 0, n = 0, P = 0, M = 0;
     // let A = P * Math.pow(1 + r/n, n*t) + M * ((Math.pow(1 + r/n, n*t) - 1) / (r/n));
 
+    const reset = () => {
+        setP(0);
+        setM(0);
+        sett(0);
+        setr(0);
+        setn(0);
+        setA(0);
+
+        // reset the values in the input jsx
+        document.getElementById('initialInvestment').value = 0;
+        document.getElementById('monthlyInvestment').value = 0;
+        document.getElementById('years').value = 0;
+        document.getElementById('interestRate').value = 0;
+        document.getElementById('compoundFrequency').value = 0;
+    }
+
     const [t, sett] = useState(0);
     const [r, setr] = useState(0);
     const [n, setn] = useState(1);
@@ -68,13 +84,14 @@ function InvestmentCalculator() {
             </div>
             <div className="inputs">
                 <button onClick={() => setA(P * Math.pow(1 + r/n, n*t) + M * ((Math.pow(1 + r/n, n*t) - 1) / (r/n)))}>Calculate</button>
+                <button onClick={() => reset()}>Reset</button>
             </div>
             <div className="title">
                 <h3>Results</h3>
             </div>
-            <div>
                 <label>Future Value: ${A.toFixed(2)}</label>
                 <p> This is the amount of money you will have after {t} years.</p>
+            <div>
             </div>
         </div>
     </div>
