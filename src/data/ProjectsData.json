@@ -44,7 +44,7 @@
         ]
     },
     {
-        "img": "assets/img/",
+        "img": "assets/img/weather-app.png",
         "alt": "",
         "title": "Weather App",
         "description": "A simple weather app that uses the OpenWeatherMap API to get the current weather of a location. The app is able to display the temperature, humidity, and weather condition of the location.",
