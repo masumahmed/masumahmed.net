@@ -61,6 +61,7 @@ def getMD(content):
     md = list(map(lambda x: x.replace("./", "/"), md))
     return md
 
+# get the description of the blog post
 def getDescription(content):
     description = content.split("\n")[6].replace("description: ", "")
     description = description.replace("#", "")
@@ -79,9 +80,13 @@ def writeData(data):
     with open("./src/data/BlogData.json", "w") as f:
         json.dump(data, f, indent=4)
 
+<<<<<<< HEAD
+# move the _Blob folder to ./src/data/
+=======
 # copy _Blob into ./src/_Blob
 def copyBlob():
     os.system("cp -r ./_BlogPosts/_Blob ./public")
+>>>>>>> 59de4a7bd1d3f5883725f0ddfa7b6ee903552fd0
 
 # main function
 def main():
@@ -99,7 +104,11 @@ def main():
             "description": getDescription(content),
             "md": getMD(content),
         })
+<<<<<<< HEAD
+
+=======
     copyBlob()
+>>>>>>> 59de4a7bd1d3f5883725f0ddfa7b6ee903552fd0
     data = sorted(data, key=lambda x: x["date"], reverse=True)
     writeData(data)
 

@@ -14,15 +14,24 @@ function BlogEntry() {
     const { hash } = useParams();
     const { pathname } = useLocation();
     
+<<<<<<< HEAD
+    let date = '', author = '', md="", description = '', title = '', img = '';
+=======
     let title = '', date = '', author = '', md="", img = '', tags = '';
+>>>>>>> 59de4a7bd1d3f5883725f0ddfa7b6ee903552fd0
     BlogData.forEach(entry => {            
         if (entry.hash === hash) {
             title = entry.title;
             date = entry.date;
             author = entry.author;
             md = entry.md;
+<<<<<<< HEAD
+            description = entry.description;
+            img = entry.img;
+=======
             img = entry.img;
             tags = entry.tags;
+>>>>>>> 59de4a7bd1d3f5883725f0ddfa7b6ee903552fd0
         }
     });
 
@@ -52,14 +61,21 @@ function BlogEntry() {
         setHtmlContent(html);
         window.scrollTo(0, 0);
 
+<<<<<<< HEAD
+=======
     }, [pathname]);
 
+>>>>>>> 59de4a7bd1d3f5883725f0ddfa7b6ee903552fd0
     return <>
         <div id="bodyWrapper">
             <Modal />
             <Header />
             <div className="content">
+<<<<<<< HEAD
+                <div className="con border markdown" style={{ "borderBottom": "1px solid #3a3a3a" }}>
+=======
                 <div className="con border markdown">
+>>>>>>> 59de4a7bd1d3f5883725f0ddfa7b6ee903552fd0
                     {!date && <>
                         <h1 style={{ "textAlign": "center" }}>error 404 - no such blog exists</h1>
                         {
@@ -69,11 +85,15 @@ function BlogEntry() {
                         }
                     </>}
                     {date && <>
+<<<<<<< HEAD
+                        <img className="previewImage" src={img} />
+=======
                     {img && <>
                         <img className="previewImage" src={img} />
                         <br />
                     </>}
                         <br />
+>>>>>>> 59de4a7bd1d3f5883725f0ddfa7b6ee903552fd0
                         <h1 style={{ "textAlign": "left" }}>{title}</h1>
                         <hr />
                         <p><i>{author} - {date} - {tags}</i></p>

@@ -72,11 +72,19 @@
         ]
     },
     {
+<<<<<<< HEAD
+        "hash": "8e7684b12c13",
+        "title": "Hello World Test 2",
+        "img": "https://via.placeholder.com/250",
+        "author": "Masum Ahmed",
+        "date": "2024-06-11",
+=======
         "hash": "489eb84e24fe",
         "title": "Hello World",
         "img": "/_Blob/brookly-bridge.jpg",
         "author": "Masum Ahmed",
         "date": "2024-06-15",
+>>>>>>> 59de4a7bd1d3f5883725f0ddfa7b6ee903552fd0
         "tags": "hello, world",
         "description": "My first post from my static site bloging system.",
         "md": [
