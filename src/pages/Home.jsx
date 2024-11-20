@@ -1,25 +1,33 @@
 import { useState, useEffect } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import Intro from '../data/IntroData.json';
 
 function Home() {
     const [text, setText] = useState("Software Engineer");
+    const [speed, setSpeed] = useState(700);
 
-    useEffect(() => {
-        const labels = ["Software Engineer", "Data Science", "Cyber Security", "Game Dev", "Tech Enthusiast", ""];
+    useEffect(() => {        
+        const labels = Intro[0].text.split(' ');
         let index = 0;
         const interval = setInterval(() => {
             setText(labels[index]);
             index = (index + 1) % labels.length;
-        }, 2000);
+        }, 1000 - speed);
         return () => clearInterval(interval);
-    }, []);
+    }, [speed]);
 
     return <>
         <div id="bodyWrapper">
             <Header />
             <div id="carousel">
                 <p id="carouselWord">{text}</p>
+            </div>
+            <div id="controls-container">
+                <div id="controls">
+                    <button id="refresh" onClick={() => window.location.reload()}>↺</button>
+                    <input type="range" id="speed" min="150" max="900" value={speed} onChange={e => setSpeed(e.target.value)} />
+                </div>
             </div>
             <div className="content nuetral">
                 <div className="con">
