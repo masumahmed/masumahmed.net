@@ -3,7 +3,7 @@
         "img": "assets/img/Screen Shot 2022-09-04 at 9.15.35 PM.png",
         "alt": "screenshot of text editor and terminal",
         "title": "FAT32 File System",
-        "description": "In this project I implemented a functional FAT32 file system using a text file in place of an actual storage device. It demonstrates understading of high level computer science topics in operating systems and file systems.",
+        "description": "In this project I implemented a functional FAT32 file system using a text file in place of an actual storage device. It demonstrates understanding of high level computer science topics in operating systems and file systems.",
         "title2": "Example MLK.txt",
         "description2": "The system is able to store any 20Kb text file within it's volume. In the example screenshot I used MLK's famous I had a dream speech. In the FAT (left) you can see the file being allocated. In the volume (right) you can see a subsection of the file's content being stored using the index allocation method for file management.",
         "repoLink": "https://github.com/masumahmed/filesystem",
