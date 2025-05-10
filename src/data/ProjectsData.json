@@ -1,5 +1,19 @@
 [
     {
+        "img": "assets/img/media_vault.png",
+        "alt": "screenshot of text editor and terminal",
+        "title": "Media Vault",
+        "description": "Media Vault is a full-stack web application that allows users to store, categorize, and share their favorite media—including movies, shows, music, books, and games. Users can create personalized media lists, write reviews, assign custom tags, and recommend titles to others. The app features secure authentication, responsive UI, and a clean dashboard experience for managing large personal libraries. Made with React, Express, PostgreSQL, and AWS S3, EB . Mirgated to Vercel.",
+        "tags": [
+            "Fullstack",
+            "Postgres",
+            "PERN",
+            "AWS"
+        ],
+        "repoLink": "https://github.com/masumahmedmediavault",
+        "repoText": "github.com/masumahmed/mediavault"
+    },
+    {
         "img": "assets/img/Screen Shot 2022-09-04 at 9.15.35 PM.png",
         "alt": "screenshot of text editor and terminal",
         "title": "FAT32 File System",
