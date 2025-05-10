@@ -33,12 +33,12 @@ function Main() {
         <Route path="/blog/:hash" element={<BlogEntry />} />
         <Route path="/photos" element={<Photos />} />
         <Route path="/contact" element={<Contact />} />
+
+        {/* Redirects */}
+        <Route path="/*" component={<h1 style={{ display: 'flex', justifyContent: 'center', textAlign: 'center' }}>404</h1>} />
         <Route path="/resume" element={<meta httpEquiv='refresh' content='0; URL=/MasumAhmedResume.pdf'/> } />
         <Route path="/linkedin" element={<meta httpEquiv='refresh' content='0; URL=https://www.linkedin.com/in/masum-ahmed/'/> } />
         <Route path="/github" element={<meta httpEquiv='refresh' content='0; URL=https://github.com/masumahmed'/> } />
-        <Route path="/ds/resume" element={<meta httpEquiv='refresh' content='0; URL=/ds/MasumAhmedResume.pdf'/> } />
-        <Route path="/investment-calculator" element={<InvestmentCalculator />} />
-        <Route path="/*" component={<h1 style={{ display: 'flex', justifyContent: 'center', textAlign: 'center' }}>404</h1>} />
     </Routes>
 }
 
