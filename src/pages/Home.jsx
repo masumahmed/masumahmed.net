@@ -25,11 +25,10 @@ function Home() {
             </div>
             <div id="controls-container">
                 <div id="controls">
-                    <button id="refresh" onClick={() => window.location.reload()}>↺</button>
                     <input type="range" id="speed" min="150" max="900" value={speed} onChange={e => setSpeed(e.target.value)} />
                 </div>
             </div>
-            <div className="content nuetral">
+            {/* <div className="content nuetral">
                 <div className="con">
                     <div id="readme">
                         <h1 id="hello">Hello</h1>
@@ -41,7 +40,7 @@ function Home() {
                         <p><br /></p>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
         <Footer />
     </>
