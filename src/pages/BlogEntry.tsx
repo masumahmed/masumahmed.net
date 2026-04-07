@@ -17,9 +17,9 @@ function BlogEntry() {
     const [htmlContent, setHtmlContent] = useState('');
     const { hash } = useParams();
     const { pathname } = useLocation();
-    
-    let title = '', date = '', author = '', md="", img = '', tags = '';
-    BlogData.forEach(entry => {            
+
+    let title = '', date = '', author = '', md = Array(), img = '', tags = '';
+    BlogData.forEach(entry => {
         if (entry.hash === hash) {
             title = entry.title;
             date = entry.date;
@@ -35,7 +35,7 @@ function BlogEntry() {
     tags = tags.split(',').map(tag => {
         return '#' + tag;
     }).join(', ');
-    
+
     useEffect(() => {
         let html = '';
         const converter = new Showdown.Converter({
@@ -46,12 +46,12 @@ function BlogEntry() {
             simpleLineBreaks: true,
             openLinksInNewWindow: true,
         });
-        
+
         // turn md into a str from a json
         let tmp = '';
-        for (let i = 0; i < md.length; i++) 
+        for (let i = 0; i < md.length; i++)
             tmp += md[i] + '\n';
-        
+
         html = converter.makeHtml(tmp);
         setHtmlContent(html);
         window.scrollTo(0, 0);
@@ -62,7 +62,7 @@ function BlogEntry() {
         <div id="bodyWrapper">
             <Modal />
             <Navbar />
-            <Header 
+            <Header
                 title={title}
                 desc={<i>{author} - {date} - {tags}</i>}
             />
@@ -77,19 +77,19 @@ function BlogEntry() {
                         }
                     </>}
                     {date && <>
-                    {img && <>
-                        <img className="previewImage" src={img} />
+                        {img && <>
+                            <img className="previewImage" src={img} />
+                            <br />
+                        </>}
+                        <div id="blog">
+                            {parse(htmlContent)}
+                        </div>
                         <br />
                     </>}
-                    <div id="blog">
-                        {parse(htmlContent)}
-                    </div>
-                    <br />
-                </>}
+                </div>
             </div>
         </div>
-    </div>
-    <Footer />
+        <Footer />
     </>
 }
 

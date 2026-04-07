@@ -9,7 +9,7 @@ function BlogPreview({ props }: any) {
 
     // remove tags leading spaces and prepend '#'
     tags = tags.replace(/ /g, '');
-    tags = tags.split(',').map(tag => {
+    tags = tags.split(',').map((tag: string) => {
         return '#' + tag;
     }).join(', ');
 

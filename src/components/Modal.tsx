@@ -1,7 +1,7 @@
 import '../styles/Modal.scss'
 import { useEffect, useState } from "react";
 
-function Modal({dependency}:any) {
+function Modal({ dependency }: any) {
     const [image, setImage] = useState("");
     const [alt, setAlt] = useState("");
 
@@ -20,29 +20,32 @@ function Modal({dependency}:any) {
         let modal = document.getElementById("modal");
         let modalContainer = document.getElementById("modal-container");
 
-        modal.classList.remove("invisible");
-        modalContainer.classList.remove("invisible");
-        document.body.style.overflow = "hidden";
+        if (modal && modalContainer) {
 
-        modalContainer.addEventListener("click", function () {
-            modal.classList.add("invisible");
-            modalContainer.classList.add("invisible");
-            document.body.style.overflow = "auto";
-        });
+            modal.classList.remove("invisible");
+            modalContainer.classList.remove("invisible");
+            document.body.style.overflow = "hidden";
 
-        modal.addEventListener("click", function () {
-            modal.classList.add("invisible");
-            modalContainer.classList.add("invisible");
-            document.body.style.overflow = "auto";
-        });
-
-        document.addEventListener("keydown", function (event) {
-            if (event.key === "Escape") {
+            modalContainer.addEventListener("click", function () {
                 modal.classList.add("invisible");
                 modalContainer.classList.add("invisible");
                 document.body.style.overflow = "auto";
-            }
-        });
+            });
+
+            modal.addEventListener("click", function () {
+                modal.classList.add("invisible");
+                modalContainer.classList.add("invisible");
+                document.body.style.overflow = "auto";
+            });
+
+            document.addEventListener("keydown", function (event) {
+                if (event.key === "Escape") {
+                    modal.classList.add("invisible");
+                    modalContainer.classList.add("invisible");
+                    document.body.style.overflow = "auto";
+                }
+            });
+        }
     }
 
     return <div>

@@ -9,16 +9,21 @@ import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
 
 function Contact() {
-  const form = useRef();
+  const form = useRef<HTMLFormElement | null>(null);
   const [sent, setSent] = useState(false);
 
-  const handleSend = (e: any) => {
+  const handleSend = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
+    if (!form.current) return;
+
     emailjs
-      .sendForm('service_6cb85cy', 'template_i422dls', form.current, {
-        publicKey: 'R26cz0LSMfwmVY0Nk',
-      })
+      .sendForm(
+        'service_6cb85cy',
+        'template_i422dls',
+        form.current,
+        { publicKey: 'R26cz0LSMfwmVY0Nk' }
+      )
       .then(
         () => {
           setSent(true);
@@ -26,9 +31,9 @@ function Contact() {
         },
         (error: any) => {
           console.log('FAILED...', error.text);
-        },
+        }
       );
-  }
+  };
 
   return <>
     <Navbar />

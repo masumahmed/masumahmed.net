@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { faHouse } from '@fortawesome/free-solid-svg-icons'
 import { faCode } from '@fortawesome/free-solid-svg-icons'
 import { faBook } from '@fortawesome/free-solid-svg-icons'
-import { faImage } from '@fortawesome/free-solid-svg-icons'
+// import { faImage } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 function Navbar() {
