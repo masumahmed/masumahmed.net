@@ -1,0 +1,16 @@
+# Tickets
+
+1. Fix navbar behavior when slecting a page and not moving the mouse off the navbar. The cusor doesn't reset to a pointer icon.
+2. Implement photos
+    - photos folder
+    - python script to generate thumbnails and move pictures to the public folder
+    - modify github actions to run the script
+3. Fix Modal Implementation
+4. lightmode with slector
+5. fix all padding/margin issues
+6. reduce verbose files
+7. make navbar more glass like
+8. migrate to tailwind
+9. fix all console errors
+10. Redesing contact page
+11. Blog filtering and search

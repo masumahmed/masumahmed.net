@@ -1,0 +1,24 @@
+.filter {
+    background-color: var(--main-bg-color);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 auto;
+    border: 1px solid var(--accent-color);
+    border-top: none;
+    padding: 0.2rem 4rem;
+    transition: 1s;
+
+    h4 {
+        margin-right: 10px;
+    }
+
+    select {
+        height: 20px;
+    }
+
+    @media only screen and (max-width: 640px) {
+        padding: 0.2rem 2rem;
+        transition: 1s;
+    }
+}

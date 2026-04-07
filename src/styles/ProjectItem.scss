@@ -1,0 +1,74 @@
+.projectItem {
+    display: flex;
+    background-color: var(--main-bg-color);
+    border: 1px solid var(--accent-color);
+    border-top: none;
+    transition: 1s;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 0;
+    }
+
+    img {
+        width: 15rem;
+        height: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+        border: 2px solid #333;
+        cursor: pointer;
+        margin: 2rem 4rem;
+        margin-right: 1rem;
+        border-radius: 4px;
+        transition: 1s;
+
+        &:hover {
+            border: 2px solid red;
+            transition: 0.5s;
+        }
+    }
+
+    .text {
+        vertical-align: top;
+        margin: 2rem 4rem;
+        margin-left: 0;
+        padding: 20px;
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        // justify-content: space-between;
+        vertical-align: text-top;
+        transition: 1s;
+    }
+
+    label {
+        margin-right: 5px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        padding: 2px;
+        border-radius: 2px;
+        font-size: small;
+    }
+
+    @media only screen and (max-width: 640px) {
+        flex-direction: column;
+        transition: 1s;
+        padding: 1rem 0rem;
+
+        img {
+            margin: 1rem auto;
+            transition: 1s;
+        }
+
+        .text {
+            padding: 0rem 2rem;
+            margin: 1rem 0;
+            transition: 1s;
+            font-size: small;
+        }
+    }
+}

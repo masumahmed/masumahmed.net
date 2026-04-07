@@ -1,0 +1,18 @@
+.photoGallary {
+    display: inline-block;
+    flex-direction: row;
+    flex-direction: column;
+    padding: 15px;
+    width: 36rem;
+    height: 36rem;
+    -o-object-fit: cover;
+    object-fit: cover;
+    justify-content: space-evenly;
+    text-align: center;
+    align-content: center;
+
+    &:hover {
+        filter: brightness(0.5);
+        transition: 0.5s;
+    }
+}

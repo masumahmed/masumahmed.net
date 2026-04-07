@@ -1,0 +1,45 @@
+.footer {
+    background-color: var(--main-bg-color);
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 2rem 4rem;
+    border: 1px solid var(--accent-color);
+    border-radius: 0 0 1rem 1rem;
+    margin-bottom: 12rem;
+    border-top: none;
+    transition: 1s;
+
+    @media only screen and (max-width: 640px) {
+        padding: 1rem 2rem;
+        transition: 1s;
+
+        p, a {
+            font-size: smaller;
+            transition: 1s;
+        }
+
+    }
+
+    .links {
+        display: flex;
+
+        p {
+            color: white;
+            transition: 1s;
+        }
+        
+        a {
+            margin-right: 10px;
+            font-size: 14px;
+            color: white;
+            transition: 1s;
+
+            &:hover {
+                color: var(--accent-color);
+                transition: 0.5s;
+            }
+        }
+    }
+
+}

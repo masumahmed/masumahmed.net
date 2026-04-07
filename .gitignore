@@ -6,14 +6,11 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-BlogData.json
 
 node_modules
 dist
 dist-ssr
 *.local
-_BlogPostsDrafts
-/public/_Blob
 
 # Editor directories and files
 .vscode/*
@@ -25,4 +22,3 @@ _BlogPostsDrafts
 *.njsproj
 *.sln
 *.sw?
-.env
