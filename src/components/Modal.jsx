@@ -40,6 +40,7 @@ function Modal({dependency}) {
                 modal.classList.add("invisible");
                 modalContainer.classList.add("invisible");
                 document.body.style.overflow = "auto";
+                modal.remove();
             }
         });
     }

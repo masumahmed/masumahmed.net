@@ -8,7 +8,6 @@ import Blog from './pages/Blog'
 import Photos from './pages/Photos'
 import BlogEntry from './pages/BlogEntry'
 import Contact from './pages/Contact'
-import InvestmentCalculator from './pages/InvestmentCalculator'
 import './styles.scss'
 
 function Main() {
