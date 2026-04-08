@@ -34,13 +34,10 @@
 
     .text {
         vertical-align: top;
-        margin: 2rem 4rem;
-        margin-left: 0;
-        padding: 20px;
+        margin: 2rem 4rem 2rem 2rem;
         padding-top: 0;
         display: flex;
         flex-direction: column;
-        // justify-content: space-between;
         vertical-align: text-top;
         transition: 1s;
     }
