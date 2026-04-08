@@ -17,3 +17,4 @@
 12. Fix the unnessary navbar wrapper
 13. Check for other unnessary wrappers
 14. Migrate to symantic html
+15. Fix horizontal alignment for navbar 

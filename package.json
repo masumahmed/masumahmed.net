@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "add-domain": "echo \"masumahmed.net\" > build/CNAME",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
