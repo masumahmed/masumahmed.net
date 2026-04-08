@@ -14,3 +14,6 @@
 9. fix all eslint errors
 10. Redesing contact page
 11. Blog filtering and search
+12. Fix the unnessary navbar wrapper
+13. Check for other unnessary wrappers
+14. Migrate to symantic html

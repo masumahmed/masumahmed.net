@@ -4,10 +4,12 @@
     bottom: 4rem;
     z-index: 1000;
 
+    border: 1px solid red;
+
     .navbar {
+        padding: 0 4rem;
         display: flex;
-        margin: 0 auto;
-        max-width: 20rem;
+        justify-self: center;
         border-radius: 2rem;
         min-height: 4rem;
         align-items: center;
@@ -43,7 +45,8 @@
     }
 
     @media only screen and (max-width: 745px) {
-        width: 100%;
+        width: auto;
+        justify-self: center;
         transition: 1s;
     }
 }
