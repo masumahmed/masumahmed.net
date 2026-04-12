@@ -1,5 +1,7 @@
 .wrapper {
     position: fixed;
+    display: flex;
+    justify-content: center;
     width: 44rem;
     bottom: 4rem;
     z-index: 1000;

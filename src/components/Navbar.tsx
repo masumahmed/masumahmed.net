@@ -18,7 +18,7 @@ function Navbar() {
                 <Link to="/"><FontAwesomeIcon icon={faHouse} onClick={handleClick} /></Link>
                 <Link to="/projects"><FontAwesomeIcon icon={faCode} onClick={handleClick} /></Link>
                 <Link to="/blog"><FontAwesomeIcon icon={faBlog} onClick={handleClick} /></Link>
-                {/* <Link to="/photos"><FontAwesomeIcon icon={faImage} onClick={handleClick}/></Link> */}
+                {/* <Link to="/photos"><FontAwesomeIcon icon={faImage} onClick={handleClick} /></Link> */}
                 <Link to="/contact"><FontAwesomeIcon icon={faEnvelope} onClick={handleClick} /></Link>
             </div>
         </div>
