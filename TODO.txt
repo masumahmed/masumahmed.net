@@ -7,15 +7,10 @@
     - modify github actions to run the script
 3. Fix Modal Implementation
 4. lightmode with slector
-5. fix all padding/margin issues
 6. reduce verbose files
 7. make navbar more glass like
 8. migrate to tailwind
 9. fix all eslint errors
 10. Redesing contact page
 11. Blog filtering and search
-12. Fix the unnessary navbar wrapper
-13. Check for other unnessary wrappers
-14. Migrate to symantic html
 15. Fix horizontal alignment for navbar
-16. fix safari build
