@@ -1,74 +1,101 @@
 [
+  { "date": "04-01", "text": "A day for April Fool’s Day jokes!" },
+  { "date": "04-02", "text": "Happiness depends upon ourselves. — Aristotle" },
   {
-    "date": "01-01",
-    "text": "New Year’s Day — Wishing you a year of renewal and purpose."
+    "date": "04-03",
+    "text": "The unexamined life is not worth living. — Socrates"
+  },
+  { "date": "04-04", "text": "I think, therefore I am. — René Descartes" },
+  {
+    "date": "04-05",
+    "text": "Raise your words, not your voice. It is rain that grows flowers, not thunder. — Rumi"
   },
   {
-    "date": "01-02", 
-    "text": "The best and most beautiful things in the world cannot be seen or even touched - they must be felt with the heart." - Helen Keller
+    "date": "04-06",
+    "text": "Man is condemned to be free. — Jean-Paul Sartre"
   },
   {
-    "date": "01-03",
-    "text": "The journey of a thousand miles begins with a single step."
+    "date": "04-07",
+    "text": "No man ever steps in the same river twice. — Heraclitus"
   },
   {
-    "date": "01-04",
-    "text": "Be the change that you wish to see in the world."
+    "date": "04-08",
+    "text": "He who conquers himself is the mightiest warrior. — Confucius"
   },
   {
-    "date": "01-05",
-    "text": "Life is what happens to you while you're busy making other plans."
+    "date": "04-09",
+    "text": "Entities should not be multiplied unnecessarily. — William of Ockham"
+  },
+  { "date": "04-10", "text": "God is dead. — Friedrich Nietzsche" },
+  {
+    "date": "04-11",
+    "text": "Speak good or remain silent. — Prophet Muhammad"
+  },
+  { "date": "04-12", "text": "To be is to be perceived. — George Berkeley" },
+  {
+    "date": "04-13",
+    "text": "The only thing I know is that I know nothing. — Socrates"
   },
   {
-    "date": "01-06",
-    "text": "The only way to do great work is to love what you do."
+    "date": "04-14",
+    "text": "Silence is a source of great strength. — Lao Tzu"
   },
   {
-    "date": "01-07",
-    "text": "Happiness is not something readymade. It comes from your."
-  }
-  {
-    "date": "02-14",
-    "text": "Valentine’s Day — Love is in the air. Share your affection."
+    "date": "04-15",
+    "text": "Tax Day: A reminder to file and pay taxes in the United States."
   },
   {
-    "date": "03-01",
-    "text": "March 1st — A new month, a fresh start."
+    "date": "04-16",
+    "text": "Life must be understood backward. But it must be lived forward. — Søren Kierkegaard"
+  },
+  { "date": "04-17", "text": "What you seek is seeking you. — Rumi" },
+  {
+    "date": "04-18",
+    "text": "Happiness is not an ideal of reason but of imagination. — Immanuel Kant"
   },
   {
-    "date": "04-01",
-    "text": "April Fool’s Day — May your day be filled with laughter."
+    "date": "04-19",
+    "text": "Do not grieve; indeed, Allah is with us. — Quran 9:40"
   },
   {
-    "date": "05-01",
-    "text": "May Day — Celebrate the arrival of spring."
+    "date": "04-20",
+    "text": "Nature does not hurry, yet everything is accomplished. — Lao Tzu"
   },
   {
-    "date": "06-01",
-    "text": "June 1st — A beautiful day to appreciate the beauty of nature."
+    "date": "04-21",
+    "text": "Knowing yourself is the beginning of all wisdom. — Aristotle"
   },
   {
-    "date": "07-01",
-    "text": "July 4 —th Happy Independence 4th of July!"
+    "date": "04-22",
+    "text": "Earth Day: A day to support environmental protection worldwide."
   },
   {
-    "date": "08-01",
-    "text": "August 1st — A day for relaxation and enjoyment."
+    "date": "04-23",
+    "text": "Set your life on fire. Seek those who fan your flames. — Rumi"
   },
   {
-    "date": "09-01",
-    "text": "September 1st — The start of a new season."
+    "date": "04-24",
+    "text": "The greater the difficulty, the more glory in surmounting it. — Epicurus"
   },
   {
-    "date": "10-01",
-    "text": "October 1st — Embrace the crisp air and vibrant colors of fall."
+    "date": "04-25",
+    "text": "Trust in God, but tie your camel. — Prophet Muhammad"
+  },
+  { "date": "04-26", "text": "Man is the measure of all things. — Protagoras" },
+  {
+    "date": "04-27",
+    "text": "A journey of a thousand miles begins with a single step. — Lao Tzu"
   },
   {
-    "date": "11-01",
-    "text": "November 1st — Reflect on gratitude and blessings."
+    "date": "04-28",
+    "text": "The wound is the place where the Light enters you. — Rumi"
   },
   {
-    "date": "12-01",
-    "text": "December 1st — The first day of the most wonderful time of the year."
+    "date": "04-29",
+    "text": "Whereof one cannot speak, thereof one must be silent. — Ludwig Wittgenstein"
+  },
+  {
+    "date": "04-30",
+    "text": "Seek knowledge from the cradle to the grave. — Prophet Muhammad"
   }
 ]
