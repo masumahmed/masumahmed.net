@@ -1,4 +1,326 @@
 [
+  {
+    "date": "01-01",
+    "text": "New Year’s Day: A time to begin again with clarity and purpose."
+  },
+  {
+    "date": "01-02",
+    "text": "The only true wisdom is in knowing you know nothing. — Socrates"
+  },
+  {
+    "date": "01-03",
+    "text": "Nature does not hurry, yet everything is accomplished. — Lao Tzu"
+  },
+  {
+    "date": "01-04",
+    "text": "Where there is ruin, there is hope for a treasure. — Rumi"
+  },
+  {
+    "date": "01-05",
+    "text": "It does not matter how slowly you go as long as you do not stop. — Confucius"
+  },
+  { "date": "01-06", "text": "We are what we repeatedly do. — Aristotle" },
+  { "date": "01-07", "text": "Turn your wounds into wisdom. — Oprah Winfrey" },
+  {
+    "date": "01-08",
+    "text": "The wound is the place where the Light enters you. — Rumi"
+  },
+  { "date": "01-09", "text": "Happiness depends upon ourselves. — Aristotle" },
+  {
+    "date": "01-10",
+    "text": "Knowing yourself is the beginning of all wisdom. — Aristotle"
+  },
+  {
+    "date": "01-11",
+    "text": "He who conquers himself is the mightiest warrior. — Confucius"
+  },
+  {
+    "date": "01-12",
+    "text": "Life must be understood backward. But it must be lived forward. — Søren Kierkegaard"
+  },
+  {
+    "date": "01-13",
+    "text": "In the middle of difficulty lies opportunity. — Albert Einstein"
+  },
+  {
+    "date": "01-14",
+    "text": "Freedom is the only worthy goal in life. — Epictetus"
+  },
+  {
+    "date": "01-15",
+    "text": "No man ever steps in the same river twice. — Heraclitus"
+  },
+  {
+    "date": "01-16",
+    "text": "Be kind, for everyone you meet is fighting a hard battle. — Plato"
+  },
+  {
+    "date": "01-17",
+    "text": "Our life is what our thoughts make it. — Marcus Aurelius"
+  },
+  {
+    "date": "01-18",
+    "text": "The journey of a thousand miles begins with one step. — Lao Tzu"
+  },
+  {
+    "date": "01-19",
+    "text": "Patience is bitter, but its fruit is sweet. — Aristotle"
+  },
+  {
+    "date": "01-20",
+    "text": "Do not spoil what you have by desiring what you have not. — Epicurus"
+  },
+  {
+    "date": "01-21",
+    "text": "We suffer more often in imagination than in reality. — Seneca"
+  },
+  {
+    "date": "01-22",
+    "text": "He who learns but does not think is lost. — Confucius"
+  },
+  {
+    "date": "01-23",
+    "text": "The unexamined life is not worth living. — Socrates"
+  },
+  { "date": "01-24", "text": "What you seek is seeking you. — Rumi" },
+  {
+    "date": "01-25",
+    "text": "Act only according to that maxim whereby you can will it to become universal law. — Immanuel Kant"
+  },
+  {
+    "date": "01-26",
+    "text": "Everything we hear is an opinion, not a fact. — Marcus Aurelius"
+  },
+  {
+    "date": "01-27",
+    "text": "Luck is what happens when preparation meets opportunity. — Seneca"
+  },
+  {
+    "date": "01-28",
+    "text": "Man is born free, and everywhere he is in chains. — Jean-Jacques Rousseau"
+  },
+  {
+    "date": "01-29",
+    "text": "The life of man is solitary, poor, nasty, brutish, and short. — Thomas Hobbes"
+  },
+  {
+    "date": "01-30",
+    "text": "The more you know, the more you realize you don’t know. — Aristotle"
+  },
+  { "date": "01-31", "text": "To be is to be perceived. — George Berkeley" },
+  {
+    "date": "02-01",
+    "text": "The beginning is the most important part of the work. — Plato"
+  },
+  {
+    "date": "02-02",
+    "text": "The only true wisdom is in knowing you know nothing. — Socrates"
+  },
+  {
+    "date": "02-03",
+    "text": "Nature does not hurry, yet everything is accomplished. — Lao Tzu"
+  },
+  {
+    "date": "02-04",
+    "text": "Where there is ruin, there is hope for a treasure. — Rumi"
+  },
+  {
+    "date": "02-05",
+    "text": "It does not matter how slowly you go as long as you do not stop. — Confucius"
+  },
+  { "date": "02-06", "text": "We are what we repeatedly do. — Aristotle" },
+  { "date": "02-07", "text": "Turn your wounds into wisdom. — Oprah Winfrey" },
+  {
+    "date": "02-08",
+    "text": "The wound is the place where the Light enters you. — Rumi"
+  },
+  { "date": "02-09", "text": "Happiness depends upon ourselves. — Aristotle" },
+  {
+    "date": "02-10",
+    "text": "Knowing yourself is the beginning of all wisdom. — Aristotle"
+  },
+  {
+    "date": "02-11",
+    "text": "He who conquers himself is the mightiest warrior. — Confucius"
+  },
+  {
+    "date": "02-12",
+    "text": "Life must be understood backward. But it must be lived forward. — Søren Kierkegaard"
+  },
+  {
+    "date": "02-13",
+    "text": "In the middle of difficulty lies opportunity. — Albert Einstein"
+  },
+  {
+    "date": "02-14",
+    "text": "Love is composed of a single soul inhabiting two bodies. — Aristotle"
+  },
+  {
+    "date": "02-15",
+    "text": "No man ever steps in the same river twice. — Heraclitus"
+  },
+  {
+    "date": "02-16",
+    "text": "Be kind, for everyone you meet is fighting a hard battle. — Plato"
+  },
+  {
+    "date": "02-17",
+    "text": "Our life is what our thoughts make it. — Marcus Aurelius"
+  },
+  {
+    "date": "02-18",
+    "text": "The journey of a thousand miles begins with one step. — Lao Tzu"
+  },
+  {
+    "date": "02-19",
+    "text": "Patience is bitter, but its fruit is sweet. — Aristotle"
+  },
+  {
+    "date": "02-20",
+    "text": "Do not spoil what you have by desiring what you have not. — Epicurus"
+  },
+  {
+    "date": "02-21",
+    "text": "We suffer more often in imagination than in reality. — Seneca"
+  },
+  {
+    "date": "02-22",
+    "text": "He who learns but does not think is lost. — Confucius"
+  },
+  {
+    "date": "02-23",
+    "text": "The unexamined life is not worth living. — Socrates"
+  },
+  { "date": "02-24", "text": "What you seek is seeking you. — Rumi" },
+  {
+    "date": "02-25",
+    "text": "Act only according to that maxim whereby you can will it to become universal law. — Immanuel Kant"
+  },
+  {
+    "date": "02-26",
+    "text": "Everything we hear is an opinion, not a fact. — Marcus Aurelius"
+  },
+  {
+    "date": "02-27",
+    "text": "Luck is what happens when preparation meets opportunity. — Seneca"
+  },
+  {
+    "date": "02-28",
+    "text": "Man is born free, and everywhere he is in chains. — Jean-Jacques Rousseau"
+  },
+  {
+    "date": "02-29",
+    "text": "Leap Day: A rare extra day added in leap years to align the calendar with the solar year."
+  },
+  {
+    "date": "03-01",
+    "text": "The beginning is the most important part of the work. — Plato"
+  },
+  {
+    "date": "03-02",
+    "text": "The only true wisdom is in knowing you know nothing. — Socrates"
+  },
+  {
+    "date": "03-03",
+    "text": "Nature does not hurry, yet everything is accomplished. — Lao Tzu"
+  },
+  {
+    "date": "03-04",
+    "text": "Where there is ruin, there is hope for a treasure. — Rumi"
+  },
+  {
+    "date": "03-05",
+    "text": "It does not matter how slowly you go as long as you do not stop. — Confucius"
+  },
+  { "date": "03-06", "text": "We are what we repeatedly do. — Aristotle" },
+  { "date": "03-07", "text": "Turn your wounds into wisdom. — Oprah Winfrey" },
+  {
+    "date": "03-08",
+    "text": "The wound is the place where the Light enters you. — Rumi"
+  },
+  { "date": "03-09", "text": "Happiness depends upon ourselves. — Aristotle" },
+  {
+    "date": "03-10",
+    "text": "Knowing yourself is the beginning of all wisdom. — Aristotle"
+  },
+  {
+    "date": "03-11",
+    "text": "He who conquers himself is the mightiest warrior. — Confucius"
+  },
+  {
+    "date": "03-12",
+    "text": "Life must be understood backward. But it must be lived forward. — Søren Kierkegaard"
+  },
+  {
+    "date": "03-13",
+    "text": "In the middle of difficulty lies opportunity. — Albert Einstein"
+  },
+  {
+    "date": "03-14",
+    "text": "Freedom is the only worthy goal in life. — Epictetus"
+  },
+  {
+    "date": "03-15",
+    "text": "No man ever steps in the same river twice. — Heraclitus"
+  },
+  {
+    "date": "03-16",
+    "text": "Be kind, for everyone you meet is fighting a hard battle. — Plato"
+  },
+  {
+    "date": "03-17",
+    "text": "Our life is what our thoughts make it. — Marcus Aurelius"
+  },
+  {
+    "date": "03-18",
+    "text": "The journey of a thousand miles begins with one step. — Lao Tzu"
+  },
+  {
+    "date": "03-19",
+    "text": "Patience is bitter, but its fruit is sweet. — Aristotle"
+  },
+  {
+    "date": "03-20",
+    "text": "Do not spoil what you have by desiring what you have not. — Epicurus"
+  },
+  {
+    "date": "03-21",
+    "text": "We suffer more often in imagination than in reality. — Seneca"
+  },
+  {
+    "date": "03-22",
+    "text": "He who learns but does not think is lost. — Confucius"
+  },
+  {
+    "date": "03-23",
+    "text": "The unexamined life is not worth living. — Socrates"
+  },
+  { "date": "03-24", "text": "What you seek is seeking you. — Rumi" },
+  {
+    "date": "03-25",
+    "text": "Act only according to that maxim whereby you can will it to become universal law. — Immanuel Kant"
+  },
+  {
+    "date": "03-26",
+    "text": "Everything we hear is an opinion, not a fact. — Marcus Aurelius"
+  },
+  {
+    "date": "03-27",
+    "text": "Luck is what happens when preparation meets opportunity. — Seneca"
+  },
+  {
+    "date": "03-28",
+    "text": "Man is born free, and everywhere he is in chains. — Jean-Jacques Rousseau"
+  },
+  {
+    "date": "03-29",
+    "text": "The life of man is solitary, poor, nasty, brutish, and short. — Thomas Hobbes"
+  },
+  {
+    "date": "03-30",
+    "text": "The more you know, the more you realize you don’t know. — Aristotle"
+  },
+  { "date": "03-31", "text": "To be is to be perceived. — George Berkeley" },
   { "date": "04-01", "text": "A day for April Fool’s Day jokes!" },
   { "date": "04-02", "text": "Happiness depends upon ourselves. — Aristotle" },
   {
@@ -97,5 +419,898 @@
   {
     "date": "04-30",
     "text": "Seek knowledge from the cradle to the grave. — Prophet Muhammad"
+  },
+  {
+    "date": "05-01",
+    "text": "International Workers' Day: A day to recognize the contributions of workers worldwide."
+  },
+  {
+    "date": "05-02",
+    "text": "Knowing others is intelligence; knowing yourself is true wisdom. — Lao Tzu"
+  },
+  {
+    "date": "05-03",
+    "text": "The only true wisdom is in knowing you know nothing. — Socrates"
+  },
+  {
+    "date": "05-04",
+    "text": "Happiness is not something ready made. It comes from your own actions. — Dalai Lama"
+  },
+  {
+    "date": "05-05",
+    "text": "Where there is ruin, there is hope for a treasure. — Rumi"
+  },
+  {
+    "date": "05-06",
+    "text": "Freedom is the only worthy goal in life. — Epictetus"
+  },
+  {
+    "date": "05-07",
+    "text": "It does not matter how slowly you go as long as you do not stop. — Confucius"
+  },
+  {
+    "date": "05-08",
+    "text": "Man is born free, and everywhere he is in chains. — Jean-Jacques Rousseau"
+  },
+  {
+    "date": "05-09",
+    "text": "The life of man is solitary, poor, nasty, brutish, and short. — Thomas Hobbes"
+  },
+  {
+    "date": "05-10",
+    "text": "In the middle of difficulty lies opportunity. — Albert Einstein"
+  },
+  {
+    "date": "05-11",
+    "text": "What you do not want done to yourself, do not do to others. — Confucius"
+  },
+  {
+    "date": "05-12",
+    "text": "The wound is the place where the Light enters you. — Rumi"
+  },
+  {
+    "date": "05-13",
+    "text": "No man's knowledge here can go beyond his experience. — John Locke"
+  },
+  {
+    "date": "05-14",
+    "text": "He who has a why to live can bear almost any how. — Friedrich Nietzsche"
+  },
+  {
+    "date": "05-15",
+    "text": "The journey of a thousand miles begins with one step. — Lao Tzu"
+  },
+  { "date": "05-16", "text": "Turn your wounds into wisdom. — Oprah Winfrey" },
+  {
+    "date": "05-17",
+    "text": "He who opens a school door, closes a prison. — Victor Hugo"
+  },
+  {
+    "date": "05-18",
+    "text": "Everything we hear is an opinion, not a fact. — Marcus Aurelius"
+  },
+  {
+    "date": "05-19",
+    "text": "Be kind, for everyone you meet is fighting a hard battle. — Plato"
+  },
+  {
+    "date": "05-20",
+    "text": "Our life is what our thoughts make it. — Marcus Aurelius"
+  },
+  {
+    "date": "05-21",
+    "text": "The more you know, the more you realize you don’t know. — Aristotle"
+  },
+  {
+    "date": "05-22",
+    "text": "If you are depressed you are living in the past. — Lao Tzu"
+  },
+  {
+    "date": "05-23",
+    "text": "Patience is bitter, but its fruit is sweet. — Aristotle"
+  },
+  {
+    "date": "05-24",
+    "text": "Do not spoil what you have by desiring what you have not. — Epicurus"
+  },
+  {
+    "date": "05-25",
+    "text": "Memorial Day: A day to honor and remember those who died in military service."
+  },
+  {
+    "date": "05-26",
+    "text": "Act only according to that maxim whereby you can will it to become universal law. — Immanuel Kant"
+  },
+  {
+    "date": "05-27",
+    "text": "The greater the difficulty, the more glory in surmounting it. — Epicurus"
+  },
+  {
+    "date": "05-28",
+    "text": "He who learns but does not think is lost. — Confucius"
+  },
+  {
+    "date": "05-29",
+    "text": "Set your life on fire. Seek those who fan your flames. — Rumi"
+  },
+  {
+    "date": "05-30",
+    "text": "We suffer more often in imagination than in reality. — Seneca"
+  },
+  {
+    "date": "05-31",
+    "text": "Luck is what happens when preparation meets opportunity. — Seneca"
+  },
+  {
+    "date": "06-01",
+    "text": "The beginning is the most important part of the work. — Plato"
+  },
+  {
+    "date": "06-02",
+    "text": "He who has a why to live can bear almost any how. — Friedrich Nietzsche"
+  },
+  {
+    "date": "06-03",
+    "text": "Nature does not hurry, yet everything is accomplished. — Lao Tzu"
+  },
+  { "date": "06-04", "text": "What you seek is seeking you. — Rumi" },
+  {
+    "date": "06-05",
+    "text": "It is not length of life, but depth of life. — Ralph Waldo Emerson"
+  },
+  { "date": "06-06", "text": "We are what we repeatedly do. — Aristotle" },
+  {
+    "date": "06-07",
+    "text": "He who learns but does not think is lost. — Confucius"
+  },
+  {
+    "date": "06-08",
+    "text": "The mind is everything. What you think you become. — Buddha"
+  },
+  { "date": "06-09", "text": "Happiness depends upon ourselves. — Aristotle" },
+  { "date": "06-10", "text": "Turn your wounds into wisdom. — Oprah Winfrey" },
+  {
+    "date": "06-11",
+    "text": "The wound is the place where the Light enters you. — Rumi"
+  },
+  {
+    "date": "06-12",
+    "text": "Knowing yourself is the beginning of all wisdom. — Aristotle"
+  },
+  {
+    "date": "06-13",
+    "text": "Life must be understood backward. But it must be lived forward. — Søren Kierkegaard"
+  },
+  {
+    "date": "06-14",
+    "text": "Flag Day: A day to honor the United States flag."
+  },
+  {
+    "date": "06-15",
+    "text": "No man ever steps in the same river twice. — Heraclitus"
+  },
+  {
+    "date": "06-16",
+    "text": "The only true wisdom is in knowing you know nothing. — Socrates"
+  },
+  {
+    "date": "06-17",
+    "text": "Where there is ruin, there is hope for a treasure. — Rumi"
+  },
+  {
+    "date": "06-18",
+    "text": "Freedom is the only worthy goal in life. — Epictetus"
+  },
+  {
+    "date": "06-19",
+    "text": "Juneteenth: A day commemorating the end of slavery in the United States."
+  },
+  {
+    "date": "06-20",
+    "text": "He who conquers himself is the mightiest warrior. — Confucius"
+  },
+  {
+    "date": "06-21",
+    "text": "Music in the soul can be heard by the universe. — Lao Tzu"
+  },
+  {
+    "date": "06-22",
+    "text": "The life of man is solitary, poor, nasty, brutish, and short. — Thomas Hobbes"
+  },
+  {
+    "date": "06-23",
+    "text": "Be kind, for everyone you meet is fighting a hard battle. — Plato"
+  },
+  {
+    "date": "06-24",
+    "text": "Do not spoil what you have by desiring what you have not. — Epicurus"
+  },
+  {
+    "date": "06-25",
+    "text": "In the middle of difficulty lies opportunity. — Albert Einstein"
+  },
+  {
+    "date": "06-26",
+    "text": "Our life is what our thoughts make it. — Marcus Aurelius"
+  },
+  {
+    "date": "06-27",
+    "text": "Patience is bitter, but its fruit is sweet. — Aristotle"
+  },
+  {
+    "date": "06-28",
+    "text": "He who has a why to live can bear almost any how. — Friedrich Nietzsche"
+  },
+  {
+    "date": "06-29",
+    "text": "The journey of a thousand miles begins with one step. — Lao Tzu"
+  },
+  {
+    "date": "06-30",
+    "text": "We suffer more often in imagination than in reality. — Seneca"
+  },
+  { "date": "07-01", "text": "Well begun is half done. — Aristotle" },
+  {
+    "date": "07-02",
+    "text": "The only true wisdom is in knowing you know nothing. — Socrates"
+  },
+  {
+    "date": "07-03",
+    "text": "Where there is ruin, there is hope for a treasure. — Rumi"
+  },
+  {
+    "date": "07-04",
+    "text": "Independence Day: A day to celebrate the founding of the United States."
+  },
+  {
+    "date": "07-05",
+    "text": "Nature does not hurry, yet everything is accomplished. — Lao Tzu"
+  },
+  {
+    "date": "07-06",
+    "text": "He who has a why to live can bear almost any how. — Friedrich Nietzsche"
+  },
+  {
+    "date": "07-07",
+    "text": "It does not matter how slowly you go as long as you do not stop. — Confucius"
+  },
+  { "date": "07-08", "text": "We are what we repeatedly do. — Aristotle" },
+  { "date": "07-09", "text": "Turn your wounds into wisdom. — Oprah Winfrey" },
+  {
+    "date": "07-10",
+    "text": "The wound is the place where the Light enters you. — Rumi"
+  },
+  {
+    "date": "07-11",
+    "text": "Knowing yourself is the beginning of all wisdom. — Aristotle"
+  },
+  {
+    "date": "07-12",
+    "text": "Man is born free, and everywhere he is in chains. — Jean-Jacques Rousseau"
+  },
+  {
+    "date": "07-13",
+    "text": "No man ever steps in the same river twice. — Heraclitus"
+  },
+  { "date": "07-14", "text": "Happiness depends upon ourselves. — Aristotle" },
+  {
+    "date": "07-15",
+    "text": "Life must be understood backward. But it must be lived forward. — Søren Kierkegaard"
+  },
+  {
+    "date": "07-16",
+    "text": "He who conquers himself is the mightiest warrior. — Confucius"
+  },
+  {
+    "date": "07-17",
+    "text": "In the middle of difficulty lies opportunity. — Albert Einstein"
+  },
+  {
+    "date": "07-18",
+    "text": "The unexamined life is not worth living. — Socrates"
+  },
+  {
+    "date": "07-19",
+    "text": "Be kind, for everyone you meet is fighting a hard battle. — Plato"
+  },
+  {
+    "date": "07-20",
+    "text": "Freedom is the only worthy goal in life. — Epictetus"
+  },
+  {
+    "date": "07-21",
+    "text": "The journey of a thousand miles begins with one step. — Lao Tzu"
+  },
+  {
+    "date": "07-22",
+    "text": "Our life is what our thoughts make it. — Marcus Aurelius"
+  },
+  {
+    "date": "07-23",
+    "text": "Patience is bitter, but its fruit is sweet. — Aristotle"
+  },
+  {
+    "date": "07-24",
+    "text": "Do not spoil what you have by desiring what you have not. — Epicurus"
+  },
+  {
+    "date": "07-25",
+    "text": "We suffer more often in imagination than in reality. — Seneca"
+  },
+  {
+    "date": "07-26",
+    "text": "He who learns but does not think is lost. — Confucius"
+  },
+  {
+    "date": "07-27",
+    "text": "The only thing I know is that I know nothing. — Socrates"
+  },
+  { "date": "07-28", "text": "What you seek is seeking you. — Rumi" },
+  {
+    "date": "07-29",
+    "text": "Act only according to that maxim whereby you can will it to become universal law. — Immanuel Kant"
+  },
+  {
+    "date": "07-30",
+    "text": "Everything we hear is an opinion, not a fact. — Marcus Aurelius"
+  },
+  {
+    "date": "07-31",
+    "text": "Luck is what happens when preparation meets opportunity. — Seneca"
+  },
+  {
+    "date": "08-01",
+    "text": "The beginning is the most important part of the work. — Plato"
+  },
+  {
+    "date": "08-02",
+    "text": "He who has a why to live can bear almost any how. — Friedrich Nietzsche"
+  },
+  {
+    "date": "08-03",
+    "text": "Nature does not hurry, yet everything is accomplished. — Lao Tzu"
+  },
+  {
+    "date": "08-04",
+    "text": "Where there is ruin, there is hope for a treasure. — Rumi"
+  },
+  {
+    "date": "08-05",
+    "text": "It does not matter how slowly you go as long as you do not stop. — Confucius"
+  },
+  { "date": "08-06", "text": "We are what we repeatedly do. — Aristotle" },
+  { "date": "08-07", "text": "Turn your wounds into wisdom. — Oprah Winfrey" },
+  {
+    "date": "08-08",
+    "text": "The wound is the place where the Light enters you. — Rumi"
+  },
+  { "date": "08-09", "text": "Happiness depends upon ourselves. — Aristotle" },
+  {
+    "date": "08-10",
+    "text": "Knowing yourself is the beginning of all wisdom. — Aristotle"
+  },
+  {
+    "date": "08-11",
+    "text": "The only true wisdom is in knowing you know nothing. — Socrates"
+  },
+  {
+    "date": "08-12",
+    "text": "He who conquers himself is the mightiest warrior. — Confucius"
+  },
+  {
+    "date": "08-13",
+    "text": "Life must be understood backward. But it must be lived forward. — Søren Kierkegaard"
+  },
+  {
+    "date": "08-14",
+    "text": "In the middle of difficulty lies opportunity. — Albert Einstein"
+  },
+  {
+    "date": "08-15",
+    "text": "Freedom is the only worthy goal in life. — Epictetus"
+  },
+  {
+    "date": "08-16",
+    "text": "No man ever steps in the same river twice. — Heraclitus"
+  },
+  {
+    "date": "08-17",
+    "text": "Be kind, for everyone you meet is fighting a hard battle. — Plato"
+  },
+  {
+    "date": "08-18",
+    "text": "Our life is what our thoughts make it. — Marcus Aurelius"
+  },
+  {
+    "date": "08-19",
+    "text": "The journey of a thousand miles begins with one step. — Lao Tzu"
+  },
+  {
+    "date": "08-20",
+    "text": "Patience is bitter, but its fruit is sweet. — Aristotle"
+  },
+  {
+    "date": "08-21",
+    "text": "Do not spoil what you have by desiring what you have not. — Epicurus"
+  },
+  {
+    "date": "08-22",
+    "text": "We suffer more often in imagination than in reality. — Seneca"
+  },
+  {
+    "date": "08-23",
+    "text": "He who learns but does not think is lost. — Confucius"
+  },
+  {
+    "date": "08-24",
+    "text": "The unexamined life is not worth living. — Socrates"
+  },
+  { "date": "08-25", "text": "What you seek is seeking you. — Rumi" },
+  {
+    "date": "08-26",
+    "text": "Act only according to that maxim whereby you can will it to become universal law. — Immanuel Kant"
+  },
+  {
+    "date": "08-27",
+    "text": "Everything we hear is an opinion, not a fact. — Marcus Aurelius"
+  },
+  {
+    "date": "08-28",
+    "text": "Luck is what happens when preparation meets opportunity. — Seneca"
+  },
+  {
+    "date": "08-29",
+    "text": "Man is born free, and everywhere he is in chains. — Jean-Jacques Rousseau"
+  },
+  {
+    "date": "08-30",
+    "text": "The life of man is solitary, poor, nasty, brutish, and short. — Thomas Hobbes"
+  },
+  {
+    "date": "08-31",
+    "text": "The more you know, the more you realize you don’t know. — Aristotle"
+  },
+  {
+    "date": "09-01",
+    "text": "Labor Day: A day to honor the contributions of workers in the United States."
+  },
+  {
+    "date": "09-02",
+    "text": "The only true wisdom is in knowing you know nothing. — Socrates"
+  },
+  {
+    "date": "09-03",
+    "text": "Nature does not hurry, yet everything is accomplished. — Lao Tzu"
+  },
+  {
+    "date": "09-04",
+    "text": "Where there is ruin, there is hope for a treasure. — Rumi"
+  },
+  {
+    "date": "09-05",
+    "text": "It does not matter how slowly you go as long as you do not stop. — Confucius"
+  },
+  { "date": "09-06", "text": "We are what we repeatedly do. — Aristotle" },
+  { "date": "09-07", "text": "Turn your wounds into wisdom. — Oprah Winfrey" },
+  {
+    "date": "09-08",
+    "text": "The wound is the place where the Light enters you. — Rumi"
+  },
+  { "date": "09-09", "text": "Happiness depends upon ourselves. — Aristotle" },
+  {
+    "date": "09-10",
+    "text": "Knowing yourself is the beginning of all wisdom. — Aristotle"
+  },
+  {
+    "date": "09-11",
+    "text": "Patriot Day: A day to remember and honor those lost in the September 11 attacks."
+  },
+  {
+    "date": "09-12",
+    "text": "He who conquers himself is the mightiest warrior. — Confucius"
+  },
+  {
+    "date": "09-13",
+    "text": "Life must be understood backward. But it must be lived forward. — Søren Kierkegaard"
+  },
+  {
+    "date": "09-14",
+    "text": "In the middle of difficulty lies opportunity. — Albert Einstein"
+  },
+  {
+    "date": "09-15",
+    "text": "Freedom is the only worthy goal in life. — Epictetus"
+  },
+  {
+    "date": "09-16",
+    "text": "No man ever steps in the same river twice. — Heraclitus"
+  },
+  {
+    "date": "09-17",
+    "text": "Be kind, for everyone you meet is fighting a hard battle. — Plato"
+  },
+  {
+    "date": "09-18",
+    "text": "Our life is what our thoughts make it. — Marcus Aurelius"
+  },
+  {
+    "date": "09-19",
+    "text": "The journey of a thousand miles begins with one step. — Lao Tzu"
+  },
+  {
+    "date": "09-20",
+    "text": "Patience is bitter, but its fruit is sweet. — Aristotle"
+  },
+  {
+    "date": "09-21",
+    "text": "Do not spoil what you have by desiring what you have not. — Epicurus"
+  },
+  {
+    "date": "09-22",
+    "text": "We suffer more often in imagination than in reality. — Seneca"
+  },
+  {
+    "date": "09-23",
+    "text": "He who learns but does not think is lost. — Confucius"
+  },
+  {
+    "date": "09-24",
+    "text": "The unexamined life is not worth living. — Socrates"
+  },
+  { "date": "09-25", "text": "What you seek is seeking you. — Rumi" },
+  {
+    "date": "09-26",
+    "text": "Act only according to that maxim whereby you can will it to become universal law. — Immanuel Kant"
+  },
+  {
+    "date": "09-27",
+    "text": "Everything we hear is an opinion, not a fact. — Marcus Aurelius"
+  },
+  {
+    "date": "09-28",
+    "text": "Luck is what happens when preparation meets opportunity. — Seneca"
+  },
+  {
+    "date": "09-29",
+    "text": "Man is born free, and everywhere he is in chains. — Jean-Jacques Rousseau"
+  },
+  {
+    "date": "09-30",
+    "text": "The life of man is solitary, poor, nasty, brutish, and short. — Thomas Hobbes"
+  },
+  {
+    "date": "10-01",
+    "text": "The beginning is the most important part of the work. — Plato"
+  },
+  {
+    "date": "10-02",
+    "text": "The only true wisdom is in knowing you know nothing. — Socrates"
+  },
+  {
+    "date": "10-03",
+    "text": "Nature does not hurry, yet everything is accomplished. — Lao Tzu"
+  },
+  {
+    "date": "10-04",
+    "text": "Where there is ruin, there is hope for a treasure. — Rumi"
+  },
+  {
+    "date": "10-05",
+    "text": "It does not matter how slowly you go as long as you do not stop. — Confucius"
+  },
+  { "date": "10-06", "text": "We are what we repeatedly do. — Aristotle" },
+  { "date": "10-07", "text": "Turn your wounds into wisdom. — Oprah Winfrey" },
+  {
+    "date": "10-08",
+    "text": "The wound is the place where the Light enters you. — Rumi"
+  },
+  { "date": "10-09", "text": "Happiness depends upon ourselves. — Aristotle" },
+  {
+    "date": "10-10",
+    "text": "Knowing yourself is the beginning of all wisdom. — Aristotle"
+  },
+  {
+    "date": "10-11",
+    "text": "The only thing I know is that I know nothing. — Socrates"
+  },
+  {
+    "date": "10-12",
+    "text": "Columbus Day: A day recognizing the arrival of Christopher Columbus in the Americas."
+  },
+  {
+    "date": "10-13",
+    "text": "Life must be understood backward. But it must be lived forward. — Søren Kierkegaard"
+  },
+  {
+    "date": "10-14",
+    "text": "In the middle of difficulty lies opportunity. — Albert Einstein"
+  },
+  {
+    "date": "10-15",
+    "text": "Freedom is the only worthy goal in life. — Epictetus"
+  },
+  {
+    "date": "10-16",
+    "text": "No man ever steps in the same river twice. — Heraclitus"
+  },
+  {
+    "date": "10-17",
+    "text": "Be kind, for everyone you meet is fighting a hard battle. — Plato"
+  },
+  {
+    "date": "10-18",
+    "text": "Our life is what our thoughts make it. — Marcus Aurelius"
+  },
+  {
+    "date": "10-19",
+    "text": "The journey of a thousand miles begins with one step. — Lao Tzu"
+  },
+  {
+    "date": "10-20",
+    "text": "Patience is bitter, but its fruit is sweet. — Aristotle"
+  },
+  {
+    "date": "10-21",
+    "text": "Do not spoil what you have by desiring what you have not. — Epicurus"
+  },
+  {
+    "date": "10-22",
+    "text": "We suffer more often in imagination than in reality. — Seneca"
+  },
+  {
+    "date": "10-23",
+    "text": "He who learns but does not think is lost. — Confucius"
+  },
+  {
+    "date": "10-24",
+    "text": "The unexamined life is not worth living. — Socrates"
+  },
+  { "date": "10-25", "text": "What you seek is seeking you. — Rumi" },
+  {
+    "date": "10-26",
+    "text": "Act only according to that maxim whereby you can will it to become universal law. — Immanuel Kant"
+  },
+  {
+    "date": "10-27",
+    "text": "Everything we hear is an opinion, not a fact. — Marcus Aurelius"
+  },
+  {
+    "date": "10-28",
+    "text": "Luck is what happens when preparation meets opportunity. — Seneca"
+  },
+  {
+    "date": "10-29",
+    "text": "Man is born free, and everywhere he is in chains. — Jean-Jacques Rousseau"
+  },
+  {
+    "date": "10-30",
+    "text": "The life of man is solitary, poor, nasty, brutish, and short. — Thomas Hobbes"
+  },
+  {
+    "date": "10-31",
+    "text": "Halloween: A day for costumes, candy, and celebration."
+  },
+  {
+    "date": "11-01",
+    "text": "The beginning is the most important part of the work. — Plato"
+  },
+  {
+    "date": "11-02",
+    "text": "The only true wisdom is in knowing you know nothing. — Socrates"
+  },
+  {
+    "date": "11-03",
+    "text": "Nature does not hurry, yet everything is accomplished. — Lao Tzu"
+  },
+  {
+    "date": "11-04",
+    "text": "Where there is ruin, there is hope for a treasure. — Rumi"
+  },
+  {
+    "date": "11-05",
+    "text": "It does not matter how slowly you go as long as you do not stop. — Confucius"
+  },
+  { "date": "11-06", "text": "We are what we repeatedly do. — Aristotle" },
+  { "date": "11-07", "text": "Turn your wounds into wisdom. — Oprah Winfrey" },
+  {
+    "date": "11-08",
+    "text": "The wound is the place where the Light enters you. — Rumi"
+  },
+  { "date": "11-09", "text": "Happiness depends upon ourselves. — Aristotle" },
+  {
+    "date": "11-10",
+    "text": "Knowing yourself is the beginning of all wisdom. — Aristotle"
+  },
+  {
+    "date": "11-11",
+    "text": "Veterans Day: A day to honor military veterans."
+  },
+  {
+    "date": "11-12",
+    "text": "He who conquers himself is the mightiest warrior. — Confucius"
+  },
+  {
+    "date": "11-13",
+    "text": "Life must be understood backward. But it must be lived forward. — Søren Kierkegaard"
+  },
+  {
+    "date": "11-14",
+    "text": "In the middle of difficulty lies opportunity. — Albert Einstein"
+  },
+  {
+    "date": "11-15",
+    "text": "Freedom is the only worthy goal in life. — Epictetus"
+  },
+  {
+    "date": "11-16",
+    "text": "No man ever steps in the same river twice. — Heraclitus"
+  },
+  {
+    "date": "11-17",
+    "text": "Be kind, for everyone you meet is fighting a hard battle. — Plato"
+  },
+  {
+    "date": "11-18",
+    "text": "Our life is what our thoughts make it. — Marcus Aurelius"
+  },
+  {
+    "date": "11-19",
+    "text": "The journey of a thousand miles begins with one step. — Lao Tzu"
+  },
+  {
+    "date": "11-20",
+    "text": "Patience is bitter, but its fruit is sweet. — Aristotle"
+  },
+  {
+    "date": "11-21",
+    "text": "Do not spoil what you have by desiring what you have not. — Epicurus"
+  },
+  {
+    "date": "11-22",
+    "text": "We suffer more often in imagination than in reality. — Seneca"
+  },
+  {
+    "date": "11-23",
+    "text": "He who learns but does not think is lost. — Confucius"
+  },
+  {
+    "date": "11-24",
+    "text": "The unexamined life is not worth living. — Socrates"
+  },
+  { "date": "11-25", "text": "What you seek is seeking you. — Rumi" },
+  {
+    "date": "11-26",
+    "text": "Act only according to that maxim whereby you can will it to become universal law. — Immanuel Kant"
+  },
+  {
+    "date": "11-27",
+    "text": "Thanksgiving: A day to express gratitude and share meals with family and friends."
+  },
+  {
+    "date": "11-28",
+    "text": "Everything we hear is an opinion, not a fact. — Marcus Aurelius"
+  },
+  {
+    "date": "11-29",
+    "text": "Luck is what happens when preparation meets opportunity. — Seneca"
+  },
+  {
+    "date": "11-30",
+    "text": "Man is born free, and everywhere he is in chains. — Jean-Jacques Rousseau"
+  },
+  {
+    "date": "12-01",
+    "text": "The beginning is the most important part of the work. — Plato"
+  },
+  {
+    "date": "12-02",
+    "text": "The only true wisdom is in knowing you know nothing. — Socrates"
+  },
+  {
+    "date": "12-03",
+    "text": "Nature does not hurry, yet everything is accomplished. — Lao Tzu"
+  },
+  {
+    "date": "12-04",
+    "text": "Where there is ruin, there is hope for a treasure. — Rumi"
+  },
+  {
+    "date": "12-05",
+    "text": "It does not matter how slowly you go as long as you do not stop. — Confucius"
+  },
+  { "date": "12-06", "text": "We are what we repeatedly do. — Aristotle" },
+  { "date": "12-07", "text": "Turn your wounds into wisdom. — Oprah Winfrey" },
+  {
+    "date": "12-08",
+    "text": "The wound is the place where the Light enters you. — Rumi"
+  },
+  { "date": "12-09", "text": "Happiness depends upon ourselves. — Aristotle" },
+  {
+    "date": "12-10",
+    "text": "Knowing yourself is the beginning of all wisdom. — Aristotle"
+  },
+  {
+    "date": "12-11",
+    "text": "He who conquers himself is the mightiest warrior. — Confucius"
+  },
+  {
+    "date": "12-12",
+    "text": "Life must be understood backward. But it must be lived forward. — Søren Kierkegaard"
+  },
+  {
+    "date": "12-13",
+    "text": "In the middle of difficulty lies opportunity. — Albert Einstein"
+  },
+  {
+    "date": "12-14",
+    "text": "Freedom is the only worthy goal in life. — Epictetus"
+  },
+  {
+    "date": "12-15",
+    "text": "No man ever steps in the same river twice. — Heraclitus"
+  },
+  {
+    "date": "12-16",
+    "text": "Be kind, for everyone you meet is fighting a hard battle. — Plato"
+  },
+  {
+    "date": "12-17",
+    "text": "Our life is what our thoughts make it. — Marcus Aurelius"
+  },
+  {
+    "date": "12-18",
+    "text": "The journey of a thousand miles begins with one step. — Lao Tzu"
+  },
+  {
+    "date": "12-19",
+    "text": "Patience is bitter, but its fruit is sweet. — Aristotle"
+  },
+  {
+    "date": "12-20",
+    "text": "Do not spoil what you have by desiring what you have not. — Epicurus"
+  },
+  {
+    "date": "12-21",
+    "text": "We suffer more often in imagination than in reality. — Seneca"
+  },
+  {
+    "date": "12-22",
+    "text": "He who learns but does not think is lost. — Confucius"
+  },
+  {
+    "date": "12-23",
+    "text": "The unexamined life is not worth living. — Socrates"
+  },
+  {
+    "date": "12-24",
+    "text": "Christmas Eve: A night of anticipation, reflection, and gathering with loved ones."
+  },
+  {
+    "date": "12-25",
+    "text": "Christmas Day: A celebration of peace, generosity, and togetherness."
+  },
+  {
+    "date": "12-26",
+    "text": "Act only according to that maxim whereby you can will it to become universal law. — Immanuel Kant"
+  },
+  {
+    "date": "12-27",
+    "text": "Everything we hear is an opinion, not a fact. — Marcus Aurelius"
+  },
+  {
+    "date": "12-28",
+    "text": "Luck is what happens when preparation meets opportunity. — Seneca"
+  },
+  {
+    "date": "12-29",
+    "text": "Man is born free, and everywhere he is in chains. — Jean-Jacques Rousseau"
+  },
+  {
+    "date": "12-30",
+    "text": "The life of man is solitary, poor, nasty, brutish, and short. — Thomas Hobbes"
+  },
+  {
+    "date": "12-31",
+    "text": "New Year’s Eve: A time to reflect on the year past and prepare for the year ahead."
   }
 ]
