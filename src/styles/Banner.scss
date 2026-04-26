@@ -4,19 +4,7 @@
   margin: 0 auto;
   border: 1px solid var(--accent-color);
   border-top: none;
-
   transition: 1s;
-
-  @media only screen and (max-width: 640px) {
-    h1 {
-      font-size: x-large;
-      transition: 1s;
-    }
-
-    .world {
-      min-height: 20rem;
-    }
-  }
 
   .world {
     width: 100%;
@@ -33,6 +21,17 @@
       text-align: center;
       padding: 12rem 4rem;
       transition: 1s;
+    }
+  }
+
+  @media only screen and (max-width: 640px) {
+    h1 {
+      font-size: x-large;
+      transition: 1s;
+    }
+
+    .world h2 {
+      padding: 6rem 4rem;
     }
   }
 }
