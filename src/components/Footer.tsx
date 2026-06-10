@@ -15,10 +15,7 @@ function Footer() {
           <a href="https://linkedin.com/in/masum-ahmed" target="__blank">
             linkedin
           </a>
-          <a
-            href="https://docs.google.com/document/d/1rDPC6kYhHjoTGax9PN_8w1unw8a2Ym1NHVcvXUMcm4A/edit?usp=sharing"
-            target="__blank"
-          >
+          <a href="/resume" target="__blank">
             resume
           </a>
         </div>

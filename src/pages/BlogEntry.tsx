@@ -25,6 +25,7 @@ function BlogEntry() {
     md = Array(),
     img = "",
     tags = "";
+
   BlogData.forEach((entry) => {
     if (entry.hash === hash) {
       title = entry.title;
