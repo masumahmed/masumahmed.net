@@ -4,7 +4,7 @@ function Footer() {
   return (
     <>
       <div className="footer">
-        <p>All rights reserved© masumahmed.net {new Date().getFullYear()}</p>
+        <p>All rights reserved © masumahmed.net {new Date().getFullYear()}</p>
         <div className="links">
           <a href="https://github.com/masumahmed" target="__blank">
             github
