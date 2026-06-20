@@ -1,6 +1,6 @@
 ---
 # title: URL Routing in React SPA with Github Pages
-# img:
+# img: 
 # author: Masum Ahmed
 # date: 2024-06-16
 # tags: react, github-pages, routing
