@@ -15,7 +15,7 @@ Github pages doesn't support URL routing for single page applications out of the
 
 The solution is to use a jank workaround to get URL routing working on github pages. Here's how you can do it:
 
-Create a `404.html` file in the root of your project with the following content:
+1. Create a `404.html` file in the root of your project with the following content:
 
 ```html
 <!DOCTYPE html>
@@ -48,6 +48,46 @@ Create a `404.html` file in the root of your project with the following content:
 
   <body></body>
 </html>
+```
+
+2. Add a `basename` attribute to your `BrowserRouter` component in your `App.js` file:
+
+```jsx
+import { BrowserRouter as Router } from 'react-router-dom';
+
+function App() {
+  return (
+  <BrowserRouter basename="">
+    <Router>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+    </Routes>
+  <BrowserRouter />
+  );
+}
+
+export default App;
+```
+
+3. Add a `homepage` attribute to your `package.json` file:
+
+```json
+{
+  "name": "my-react-app",
+  "version": "1.0.0",
+  "homepage": "https://masumahmed.github.io/my-react-app",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0"
+  }
+}
 ```
 
 That's it! Your react app should now work with URL routing on github pages. You can test it by navigating to a route like `https://masumahmed.github.io/my-react-app/about` and it should work as expected.
